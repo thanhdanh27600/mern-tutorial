@@ -1,5 +1,13 @@
 const mongoose = require('mongoose')
 
+/**
+ * @thanhdanh27600
+ * @type {{
+ * name: string,
+ * email: string,
+ * password: string
+ * }}
+ */
 const userSchema = mongoose.Schema(
   {
     name: {
